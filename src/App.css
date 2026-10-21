@@ -6,3 +6,10 @@ body { background: #0f1117; color: #fff; font-family: sans-serif; margin: 0; }
 .up { color: #3ddc84; }
 .down { color: #ff5c5c; }
 .status { text-align: center; padding: 40px; }
+.search { display: flex; gap: 8px; margin-bottom: 16px; }
+.search input { flex: 1; padding: 10px; border-radius: 8px; border: none; background: #1b1f2a; color: #fff; }
+button { cursor: pointer; border: none; border-radius: 8px; padding: 10px 16px; background: #4f6cff; color: #fff; }
+.results { list-style: none; padding: 0; margin: 0 0 16px; background: #1b1f2a; border-radius: 8px; }
+.results li { display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; }
+.card { position: relative; }
+.remove { position: absolute; top: 8px; right: 8px; padding: 4px 8px; background: #2a2f3d; }
